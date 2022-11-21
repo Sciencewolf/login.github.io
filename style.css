@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif
+}
+
+body {
+    background-color:cadetblue;
+}
+
+h1{
+    text-align: center;
+    color:white;
+}
+
+input {
+    width: 70%;
+    height: 25px;
+    padding: 10px 0;
+}
+
+.main {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    color: white;
+    border-radius: 10% ;
+    margin: auto;    
+}
+
+.login {
+    width: 500px;
+    height: 500px;
+    color: white;
+    border-radius: 7%;
+    background: rgb(34,195,166);
+    background: linear-gradient(0deg, rgba(34,195,166,1) 0%, 
+    rgba(28,123,209,1) 100%);
+
+    /*box-shadow*/
+}
+
+.items {
+    width: 80%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.items > .input {
+    padding: 10px 5px;
+} 
+
+.items > .btn {
+    padding: 10px 5px;
+}
+
+.btn-div {
+    text-align: left;
+    padding: 0 15%;
+}
+
+.btn > .btn-style {
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 4px 2px;
+    font-size: 18px;
+    width: 40%;
+}
+
+.btn > .btn-style:hover {
+    color: orange;
+    transition: 300ms;
+}
+
+.signup a{
+    text-decoration: none;
+}
+
+#input-field, #input-field2{
+    color: white;
+}
+
+.span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span::before, .span::after {
+    display: flex;
+    content: "";
+    border-top: 1px solid black;
+    width: 7rem;
+    margin: 0 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
