@@ -11,12 +11,3 @@ const setPasswordVisibility = () => {
         but.innerHTML = "Show password"
     }
 }
-
-const checkEmail = () => {
-    console.log(document.getElementById("myDiv").style.borderColor);
-    const field = document.getElementById('input-field')
-    color = "#FFF"
-    if(!(field.contains('@'))){
-        field.style.color = color
-    }
-}
