@@ -60,6 +60,10 @@ input {
 
 }
 
+.input {
+    width: 100%;
+}
+
 .items {
 
     margin-left: auto;
@@ -79,6 +83,10 @@ input {
 .items > .input {
     padding: 10px 5px;
 } 
+
+.input > .input-field {
+    width: 100%;
+}
 
 .span::before, .span::after {
     display: flex;
