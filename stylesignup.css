@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif
+}
+
+body {
+    background-color:cadetblue;
+}
+
+h1{
+    text-align: center;
+    color:white;
+}
+
+input {
+    width: 70%;
+    padding: 10px 0;
+    border-radius: 6px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, 
+    background-color 100ms ease-in;
+    height: 36px;
+    outline: none;
+}
+
+.main {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 10% ;
+    margin: auto;    
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 7%;
+    background: rgb(34,195,166);
+    background: linear-gradient(0deg, rgba(34,195,166,1) 0%, 
+    rgba(28,123,209,1) 100%);
+
+    /*box-shadow*/
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all .5s;
+
+}
+
+.items {
+    width: 80%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup {
+    padding: 10px 5px;
+}
+
+.span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items > .input {
+    padding: 10px 5px;
+} 
+
+.items > .btn {
+    padding: 10px 5px;
+}
+
+.btn-div {
+    width: 90%;
+    text-align: left;
+    padding: 0 16%;
+}
+
+.btn > .btn-style {
+    background-color: cadetblue;
+    border: none;
+    cursor: pointer;
+    margin: 4px 2px;
+    font-size: 18px;
+    width: 70%;
+}
+
+.span::before, .span::after {
+    display: flex;
+    content: "";
+    border-top: 1px solid black;
+    width: 7rem;
+    margin: 0 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img:hover {
+    cursor: pointer;
+}
+
+.btn-style, .btn-signup, a {
+  background-color: cadetblue;
+  color: blakc;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all .5s;
+  width: 70%;
+  border: none;
+}
+
+.btn-style:hover, .btn-signup:hover {
+    color: orange;
+    transition: 300ms;
+}
