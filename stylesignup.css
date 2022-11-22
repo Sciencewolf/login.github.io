@@ -12,6 +12,16 @@ h1{
     color:white;
 }
 
+h4 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
 input {
     width: 70%;
     padding: 10px 0;
@@ -24,18 +34,21 @@ input {
 
 .main {
     text-align: center;
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     border-radius: 10% ;
-    margin: auto;    
+      
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .create {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 550px;
     border-radius: 7%;
     background: rgb(34,195,166);
     background: linear-gradient(0deg, rgba(34,195,166,1) 0%, 
@@ -48,8 +61,7 @@ input {
 }
 
 .items {
-    width: 80%;
-    height: 50%;
+
     margin-left: auto;
     margin-right: auto;
 }
@@ -68,25 +80,6 @@ input {
     padding: 10px 5px;
 } 
 
-.items > .btn {
-    padding: 10px 5px;
-}
-
-.btn-div {
-    width: 90%;
-    text-align: left;
-    padding: 0 16%;
-}
-
-.btn > .btn-style {
-    background-color: cadetblue;
-    border: none;
-    cursor: pointer;
-    margin: 4px 2px;
-    font-size: 18px;
-    width: 70%;
-}
-
 .span::before, .span::after {
     display: flex;
     content: "";
@@ -97,9 +90,9 @@ input {
     align-items: center;
 }
 
-.btn-style, .btn-signup {
+.btn-signup {
   background-color: cadetblue;
-  color: blakc;
+  color: black;
   border-radius: 16px;
   cursor: pointer;
   font-size: 18px;
@@ -110,19 +103,57 @@ input {
   border: none;
 }
 
-.btn-style:hover, .btn-signup:hover {
+.btn-signup:hover {
     color: orange;
     transition: 300ms;
 }
 
 .btn-sign-span {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
     padding: 0px 15px;
 }
 
-a {
+
+.btn-span > button {
+    text-align: center;
+    background-color: cadetblue;
+    color: black;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
     text-decoration: none;
+    transition: all .5s;
+    border: none;
+}
+
+.btn-span > button:hover {
+    color: orange;
+    transition: 300ms;
+}
+
+button > img, button > span {
+    vertical-align: middle;
+}
+
+.footer {
+    text-align: center;
+}
+
+.ftr-span > a, .ftr-span > img {
+    vertical-align: middle;
+}
+
+.ftr-span > img:hover {
+    transition: 200ms;
+    transform: rotate(360deg) scale(1.2);
+    cursor: pointer;
+}
+
+.ftr-span > img {
+    transition: 200ms;
+    transform: rotate(-360deg) scale(1);
+    cursor: pointer;
 }
