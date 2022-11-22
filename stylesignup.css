@@ -30,7 +30,7 @@ input {
     margin: auto;    
 }
 
-.login {
+.create {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,12 +97,7 @@ input {
     align-items: center;
 }
 
-
-img:hover {
-    cursor: pointer;
-}
-
-.btn-style, .btn-signup, a {
+.btn-style, .btn-signup {
   background-color: cadetblue;
   color: blakc;
   border-radius: 16px;
@@ -118,4 +113,16 @@ img:hover {
 .btn-style:hover, .btn-signup:hover {
     color: orange;
     transition: 300ms;
+}
+
+.btn-sign-span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 0px 15px;
+}
+
+a {
+    text-decoration: none;
 }
