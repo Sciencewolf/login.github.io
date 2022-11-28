@@ -133,7 +133,11 @@ input {
     padding: 10px 20px;
     text-decoration: none;
     transition: all .5s;
+
     border: none;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .btn-span > button:hover {
@@ -143,7 +147,11 @@ input {
 
 button > img, button > span {
     vertical-align: middle;
-    width: 10%;
+}
+
+.have-acc a:hover {
+    color: orange;
+    transition: 300ms;
 }
 
 .footer {
