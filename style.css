@@ -104,7 +104,7 @@ img:hover {
 
 .btn-style, .btn-signup, a {
   background-color: cadetblue;
-  color: blakc;
+  color: black;
   border-radius: 16px;
   cursor: pointer;
   font-size: 18px;
@@ -115,7 +115,7 @@ img:hover {
   border: none;
 }
 
-.btn-style:hover, .btn-signup:hover {
+.btn-style:hover, .btn-signup:hover, a:hover {
     color: orange;
     transition: 300ms;
 }
